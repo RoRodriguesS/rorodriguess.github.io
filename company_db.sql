@@ -8,19 +8,19 @@ CREATE DATABASE company_db;
 USE company_db;
 
 CREATE TABLE department (
-	id 				integer not null primary key,
+    id 			integer not null primary key,
     dpt_name		varchar(100)  not null ,
     dpt_floor 		integer not null
 );
 
 CREATE TABLE project (
-	id 			integer not null auto_increment primary key,
-    description	varchar(500) not null
+    id 		 integer not null auto_increment primary key,
+    description	 varchar(500) not null
 );
 
 CREATE TABLE employee (
-	id			integer not null auto_increment primary key,
-    emp_name	varchar(100) not null,
+    id			integer not null auto_increment primary key,
+    emp_name	        varchar(100) not null,
     salary		double not null,
     dpt_id		integer,
     emp_id		integer,
@@ -30,7 +30,7 @@ CREATE TABLE employee (
 );
 
 CREATE TABLE participates (
-	contract	integer not null auto_increment primary key,
+    contract	integer not null auto_increment primary key,
     start_date	date not null,
     end_date	date not null,
     emp_id		integer,
