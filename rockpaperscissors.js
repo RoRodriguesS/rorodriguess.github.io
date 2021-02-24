@@ -1,3 +1,7 @@
+/*
+Exercise solved at Codecadamy.com as part of the Web Developer Path Formation.
+/*
+
 const getUserChoice = userInput => {
   userInput = userInput.toLowerCase();
   
