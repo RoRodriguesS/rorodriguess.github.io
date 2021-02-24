@@ -8,7 +8,6 @@ than the previous one exactly by 1. He may need some additional statues to be ab
 accomplish that. Help him figure out the minimum number of additional statues needed.
 
 Example:
-
 For statues = [6, 2, 3, 8], the output should be makeArrayConsecutive2(statues) = 3.
 */
 
