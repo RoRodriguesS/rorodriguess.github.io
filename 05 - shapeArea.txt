@@ -9,7 +9,7 @@ taking the n - 1-interesting polygon and appending 1-interesting polygons to its
 So, a n = 2 has area = 5; a n = 3 has area = 13; a n = 4 has area = 25.
 */
 
-//My sollution
+//My sollution (Using Java)
 int shapeArea(int n) {
     int aux = 1;
     
