@@ -32,7 +32,7 @@ function getComputerChoice(){
     return 'paper';
   }
   else{
-    return 'scissors'
+    return 'scissors';
   }
 }
 
