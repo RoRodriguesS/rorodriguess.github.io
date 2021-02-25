@@ -8,7 +8,7 @@ Note: sequence a0, a1, ..., an is considered to be a strictly increasing if a0 <
 containing only one element is also considered to be strictly increasing.
 */
 
-//My sollution
+//My sollution (Using Java)
 boolean almostIncreasingSequence(int[] sequence) {
     int aux = 0;
     int pos = 0;

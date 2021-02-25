@@ -11,7 +11,7 @@ Example:
 For statues = [6, 2, 3, 8], the output should be makeArrayConsecutive2(statues) = 3.
 */
 
-//My solllution
+//My solllution (Using Java)
 int makeArrayConsecutive2(int[] statues) {
     int min = 0;
     int max = 0;
