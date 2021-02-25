@@ -9,7 +9,7 @@ adjacentElementsProduct(inputArray) = 21.
 7 and 3 produce the largest product.
 */
 
-//My solution (Using Javascript)
+// My solution (Using Javascript)
 function adjacentElementsProduct(inputArray) {
     let i = 0;
     let auxVar = inputArray[i] * inputArray[i+1];

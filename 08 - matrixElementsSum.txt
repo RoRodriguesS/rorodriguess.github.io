@@ -9,7 +9,7 @@ your task is to return the total sum of all rooms that are suitable for the Code
 the values that don't appear below a 0).
 */
 
-//My solution (Using Java)
+// My solution (Using Java)
 int matrixElementsSum(int[][] matrix) {
     int sum = 0;
 
